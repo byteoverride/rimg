@@ -14,4 +14,24 @@
 ```bash
 sudo curl -o /usr/local/bin/rimg https://raw.githubusercontent.com/byteoverride/rimg/main/rimg
 sudo chmod +x /usr/local/bin/rimg
+```
+
+## 🔧 Usage
+
+```bash
+cat urls.txt | rimg > cleaned.txt
+
+rimg < urls.txt | httpx -silent
+
+gau example.com | rimg | httpx -silent -status-code
+
+```
+
+## 📖 Help
+
+```bash
+rimg --help
+```
+
+
 

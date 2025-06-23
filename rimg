@@ -1,0 +1,5 @@
+#!/bin/bash
+# Filters out lines ending with common image extensions
+
+grep -Ev '\.(jpg|jpeg|png|gif|bmp|svg|webp|ico)(\?.*)?$'
+
